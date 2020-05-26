@@ -17,3 +17,26 @@
     // ● All events and functionality in JavaScript file
     // ● Multiple functions
     // ● Comments in the code explaining each section
+
+    document.querySelector('.addItemButton').addEventListener('click', () => {
+        let ul = document.getElementsByTagName('ul')[0];
+        let li = document.createElement('li');
+
+        let listItem = document.createElement('input');
+        let saveButton = document.createElement('button');
+        let deleteButton = document.createElement('button');
+
+        saveButton.className = "saveButton";
+        deleteButton.className = "deleteButton";
+
+        listItem.value = document.querySelector('.addItemInput').value;
+        saveButton.textContent = "Save";
+        deleteButton.textContent = "Delete";
+
+        li.appendChild(listItem);
+        li.appendChild(saveButton);
+        li.appendChild(deleteButton);
+
+        ul.appendChild(li);
+        document.querySelector('.addItemInput').value = '';
+    });
