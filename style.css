@@ -1,0 +1,26 @@
+
+/* Tags */
+body {
+    background-color:#9993;
+    padding: 15px;
+}
+
+h1 {
+    color: steelblue;
+}
+
+li {
+    padding: 2px;
+    margin: 2px;
+    border: blue 2px solid;
+    border-radius: 5px;
+    max-width: 15vw;
+}
+
+/* Classes */
+.list {
+background-color: lightgrey;
+padding: 10px;
+}
+
+/* IDs */
