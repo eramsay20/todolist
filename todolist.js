@@ -18,6 +18,7 @@
     // ● Multiple functions
     // ● Comments in the code explaining each section
 
+    // ADD LIST ITEM FROM INPUT LIST // 
     document.querySelector('.addItemButton').addEventListener('click', () => {
         let ul = document.getElementsByTagName('ul')[0];
         let li = document.createElement('li');
@@ -39,4 +40,32 @@
 
         ul.appendChild(li);
         document.querySelector('.addItemInput').value = '';
+    });
+    // ADD LIST ITEM FROM INPUT LIST // 
+
+    document.querySelector('.removeLastButton').addEventListener('click', () => {
+        let ul = document.getElementsByTagName('ul')[0];
+        let li = document.querySelector('ul').lastChild;
+        ul.removeChild(li);
+
+    });
+
+//     document.addEventListener('click', (event) => {
+// console.log(event.target);
+
+//     })
+
+// for (let i=0; i<document.getElementsByTagName('button.deleteButton').length; i++ ) {
+//     document.getElementsByTagName('button.deleteButton')[i].addEventListener('click', () => {
+//         let ul = document.getElementsByTagName('ul')[0];
+//         let li = document.querySelector('ul').lastChild;
+//         ul.removeChild(li);
+
+//     });
+// };
+
+
+    document.querySelector('div.listDiv').addEventListener('click', (event) => {
+      
+        document.querySelector('div.listDiv').removeChild(document.querySelector('div.listDiv').childNodes(event.target));
     });
