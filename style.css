@@ -12,9 +12,13 @@ h1 {
 li {
     padding: 2px;
     margin: 2px;
-    border: blue 2px solid;
-    border-radius: 5px;
-    max-width: 15vw;
+  
+}
+input {
+    background-color: yellow;
+    border: blue 3px solid;
+    border-radius: 4px;
+    margin-right: 5px;
 }
 
 /* Classes */
@@ -22,5 +26,22 @@ li {
 background-color: lightgrey;
 padding: 10px;
 }
+
+.saveButton {
+    background-color: lightgreen;
+    padding: 2px;
+    border: green 2px solid;
+    border-radius: 4px;
+    margin-right: 5px;
+    }
+
+.deleteButton {
+    background-color: pink;
+    padding: 2px;
+    border: red 2px solid;
+    border-radius: 4px;
+    margin-right: 5px;
+    }
+    
 
 /* IDs */
