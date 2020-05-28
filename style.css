@@ -14,12 +14,16 @@ li {
     margin: 2px;
   
 }
+
 input {
     background-color: yellow;
     border: blue 3px solid;
     border-radius: 4px;
     margin-right: 5px;
+    height: 20px;
+    padding: 5px;
 }
+
 
 /* Classes */
 .listDiv {
@@ -29,19 +33,30 @@ padding: 10px;
 
 .saveButton {
     background-color: lightgreen;
-    padding: 2px;
+    padding: 10px;
     border: green 2px solid;
     border-radius: 4px;
     margin-right: 5px;
+    
     }
 
 .deleteButton {
     background-color: pink;
-    padding: 2px;
+    padding: 10px;
     border: red 2px solid;
     border-radius: 4px;
     margin-right: 5px;
     }
+
+.descriptLi {
+background-color: #9994;
+padding: 5px;
+font-size: 10px;
+list-style: none;
+max-width: 35vw;
+margin-bottom: 15px;
+margin-left: 10px;
+}
     
 
 /* IDs */
