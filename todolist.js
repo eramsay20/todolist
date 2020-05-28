@@ -98,9 +98,10 @@
 
 
     //---------SELECT ALL LIST ITEMS---------//
-    document.querySelector('.hideAll').addEventListener('click', () => {
+    document.querySelector('.selectAll').addEventListener('click', () => {
 
-            let ul = document.getElementsByTagName('ul')[0]; 
+            let ul = document.getElementsByTagName('ul')[0];
+
            
             alert(`All list items selected.`);
             console.log(ul);
